@@ -12,7 +12,7 @@ class Home extends Component {
 
         <p>This a landing page for demoing routing.</p>
 
-        <Link to="/example">
+        <Link to="/pokemon">
           <Button>
             Click here to go to the demo
           </Button>
