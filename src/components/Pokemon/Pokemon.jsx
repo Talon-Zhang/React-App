@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Button, Input } from 'semantic-ui-react'
-
 import axios from 'axios'
+
+import PokemonView from './PokemonView/PokemonView'
 
 import styles from './Pokemon.scss'
 
@@ -57,6 +58,8 @@ class Pokemon extends Component {
         <Button onClick={this.clickHandler}>
           GET
         </Button>
+
+        <PokemonView pokemon={this.state.pokemon} />
       </div>
     )
   }
