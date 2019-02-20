@@ -4,7 +4,7 @@ import axios from 'axios'
 
 import PokemonView from './PokemonView/PokemonView'
 
-import styles from './Pokemon.scss'
+import { Pokemon as PokemonCss, PokemonHeader } from './Pokemon.module.scss'
 
 class Pokemon extends Component {
 
@@ -46,8 +46,8 @@ class Pokemon extends Component {
 
   render() {
     return (
-      <div className="Pokemon">
-        <h1 className="Pokemon-header">Let's GET us a Pokemon!</h1>
+      <div className={PokemonCss}>
+        <h1 className={PokemonHeader}>Let's GET us a Pokemon!</h1>
 
         <Input
           onChange={this.inputChangeHandler}

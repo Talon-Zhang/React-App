@@ -7,8 +7,6 @@ import Home from '../Home/Home.jsx';
 import Example from '../Example/Example.jsx';
 import Pokemon from '../Pokemon/Pokemon.jsx';
 
-import './App.scss';
-
 class App extends Component {
   render() {
     return (

@@ -2,13 +2,16 @@ import React, { Component } from 'react'
 import { Button } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
-import styles from './Home.scss'
+// 'Home' is already defined as the class name, so provide an alias
+// 'Home-header' from the SCSS file gets transformed to 'HomeHeader'
+//    because '-' is not allowed in JS variable names
+import { Home as HomeCss, HomeHeader } from './Home.module.scss'
 
 class Home extends Component {
   render() {
     return (
-      <div className="Home">
-        <h1 className="Home-header">Welcome to the MP2 React Demo!</h1>
+      <div className={HomeCss}>
+        <h1 className={HomeHeader}>Welcome to the MP2 React Demo!</h1>
 
         <p>This a landing page for demoing routing.</p>
 

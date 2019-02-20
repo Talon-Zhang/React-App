@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Card, Label } from 'semantic-ui-react'
 
-import styles from './PokemonView.scss'
+import { PokemonView as PokemonViewCss, PokemonViewHeader } from './PokemonView.module.scss'
 
 class PokemonView extends Component {
   render() {
@@ -12,7 +12,7 @@ class PokemonView extends Component {
 
     if (noPokemon) {
       return (
-        <Card className="PokemonView">
+        <Card className={PokemonViewCss}>
           <h3>No Pokemon yet!</h3>
         </Card>
       )
@@ -30,9 +30,9 @@ class PokemonView extends Component {
 
       // Display some data about the Pokemon, and its abilities.
       return (
-        <Card className="PokemonView">
+        <Card className={PokemonViewCss}>
           <Card.Content>
-            <Card.Header className="PokemonView-header">
+            <Card.Header className={PokemonViewHeader}>
               {this.props.pokemon.name}
             </Card.Header>
             <Card.Meta>
