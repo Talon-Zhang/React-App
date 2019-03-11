@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6d446672246dd412ffdf",
+    "revision": "5bfb23a60fa7927a369f",
     "url": "/React-App/static/css/main.b163bc95.chunk.css"
   },
   {
-    "revision": "6d446672246dd412ffdf",
-    "url": "/React-App/static/js/main.2cd9e62b.chunk.js"
+    "revision": "5bfb23a60fa7927a369f",
+    "url": "/React-App/static/js/main.b9506e0a.chunk.js"
   },
   {
     "revision": "0a1cf9ef188380b4f4c6",
@@ -28,16 +28,16 @@ self.__precacheManifest = [
     "url": "/React-App/static/media/outline-icons.ef60a4f6.woff"
   },
   {
+    "revision": "9c74e172f87984c48ddf5c8108cabe67",
+    "url": "/React-App/static/media/flags.9c74e172.png"
+  },
+  {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
     "url": "/React-App/static/media/outline-icons.701ae6ab.eot"
   },
   {
     "revision": "ad97afd3337e8cda302d10ff5a4026b8",
     "url": "/React-App/static/media/outline-icons.ad97afd3.ttf"
-  },
-  {
-    "revision": "9c74e172f87984c48ddf5c8108cabe67",
-    "url": "/React-App/static/media/flags.9c74e172.png"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/React-App/static/media/brand-icons.a1a749e8.svg"
   },
   {
-    "revision": "6fba60f400aaec5444d6c132127a3046",
+    "revision": "3821a415f6b3cb50934455a90feda0ff",
     "url": "/React-App/index.html"
   }
 ];
