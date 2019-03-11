@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "59e591866538ab76baf4",
+    "revision": "001cc5edc41ac3e07d2f",
     "url": "/React-App/static/css/main.ed8e88ba.chunk.css"
   },
   {
-    "revision": "59e591866538ab76baf4",
-    "url": "/React-App/static/js/main.33d3a53d.chunk.js"
+    "revision": "001cc5edc41ac3e07d2f",
+    "url": "/React-App/static/js/main.226aafd9.chunk.js"
   },
   {
     "revision": "0a1cf9ef188380b4f4c6",
@@ -20,12 +20,16 @@ self.__precacheManifest = [
     "url": "/React-App/static/js/2.b9e85851.chunk.js"
   },
   {
+    "revision": "cd6c777f1945164224dee082abaea03a",
+    "url": "/React-App/static/media/outline-icons.cd6c777f.woff2"
+  },
+  {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/React-App/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "cd6c777f1945164224dee082abaea03a",
-    "url": "/React-App/static/media/outline-icons.cd6c777f.woff2"
+    "revision": "9c74e172f87984c48ddf5c8108cabe67",
+    "url": "/React-App/static/media/flags.9c74e172.png"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
@@ -34,10 +38,6 @@ self.__precacheManifest = [
   {
     "revision": "ad97afd3337e8cda302d10ff5a4026b8",
     "url": "/React-App/static/media/outline-icons.ad97afd3.ttf"
-  },
-  {
-    "revision": "9c74e172f87984c48ddf5c8108cabe67",
-    "url": "/React-App/static/media/flags.9c74e172.png"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -60,16 +60,16 @@ self.__precacheManifest = [
     "url": "/React-App/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/React-App/static/media/icons.b87b9ba5.ttf"
-  },
-  {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/React-App/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
     "url": "/React-App/static/media/brand-icons.c5ebe0b3.ttf"
+  },
+  {
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/React-App/static/media/icons.b87b9ba5.ttf"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/React-App/static/media/brand-icons.a1a749e8.svg"
   },
   {
-    "revision": "d8edcbdfa50ac576e5f863262cea7494",
+    "revision": "ece5188357185df0edce4c86c24544fd",
     "url": "/React-App/index.html"
   }
 ];
