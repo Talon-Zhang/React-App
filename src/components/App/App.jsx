@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {HistoryRouter as Router, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import 'semantic-ui-css/semantic.min.css';
 
 import Home from '../Home/Home.jsx';
@@ -13,11 +13,11 @@ class App extends Component {
     return (
       <Router>
             <Switch>
-              <Route exact path="/" component={Home}/>
+              <Route basename={process.env.PUBLIC_URL} exact path="/" component={Home}/>
               {/*<Route exact path="/example" component={Example}/>*/}
               {/*<Route exact path="/pokemon" component={Pokemon}/>*/}
-              <Route exact path="/gallery" component={Gallery}/>
-              <Route path="/detail/:index" component={Detail}/>
+              <Route basename={process.env.PUBLIC_URL} exact path="/gallery" component={Gallery}/>
+              <Route basename={process.env.PUBLIC_URL} path="/detail/:index" component={Detail}/>
             </Switch>
       </Router>
     );
