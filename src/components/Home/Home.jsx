@@ -10,7 +10,7 @@ class Home extends Component {
       <div className={HomeCss}>
         <h1>Welcome to my Pokemon Site!</h1>
 
-        <Link to="/gallery">
+        <Link to={process.env.PUBLIC_URL+"/gallery"}>
           <Button>
             Gallery
           </Button>
