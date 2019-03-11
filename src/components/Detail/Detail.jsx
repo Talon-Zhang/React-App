@@ -7,22 +7,18 @@ import {Link} from "react-router-dom";
 class Detail extends Component {
 
   render() {
-    const pokeIndex = this.props.match.params.index
+    const pokeIndex = this.props.match.params.index;
     let url = `https://pokeapi.co/api/v2/pokemon/${pokeIndex}`;
-    const prev = `/detail/${Number(pokeIndex)-1}`
-    const next = `/detail/${Number(pokeIndex)+1}`
-    // var test = {}
-    // axios.get(url).then((response) => {
-    //     test=response;
-    //     console.log("inner",test);
-    //   // this.setState({
-    //   //   pokemon: response.data
-    //   // });
-    // }).catch((error) => {
-    //   console.log(error);
-    // });
-    //
-    // console.log("outer",test);
+    const prev = `/detail/${Number(pokeIndex)-1}`;
+    const next = `/detail/${Number(pokeIndex)+1}`;
+
+    const data = axios.get(url).then((response) => {
+        return response.data;
+    }).catch((error) => {
+      console.log(error);
+    });
+
+    console.log(data);
 
 
 

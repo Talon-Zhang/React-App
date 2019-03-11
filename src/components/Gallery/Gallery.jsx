@@ -22,7 +22,7 @@ class Gallery extends Component {
     this.checkHandler = this.checkHandler.bind(this);
     }
 
-    checkHandler() {
+    checkHandler(event) {
     // // Form the URL
     // let url = `${this.baseUrl}${this.state.value}`;
     //
