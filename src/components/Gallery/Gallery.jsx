@@ -50,7 +50,7 @@ class Gallery extends Component {
 
     return (
      <div>
-         <Link to="/">
+         <Link to={process.env.PUBLIC_URL+"/"}>
           <Button>
             Home
           </Button>

@@ -32,7 +32,7 @@ class PokemonView extends Component {
       const link = `/detail/${this.props.index}`
       return (
           <span>
-              <Link to={link}>
+              <Link to={process.env.PUBLIC_URL+link}>
             <img src={url} />
             </Link>
           </span>

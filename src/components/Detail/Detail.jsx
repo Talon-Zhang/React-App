@@ -25,12 +25,12 @@ class Detail extends Component {
 
     return (
       <div>
-          <Link to={prev}>
+          <Link to={process.env.PUBLIC_URL+prev}>
           <Button>
             Prev
           </Button>
         </Link>
-          <Link to={next} className="DetailRight">
+          <Link to={process.env.PUBLIC_URL+next} className="DetailRight">
           <Button >
             Next
           </Button>
