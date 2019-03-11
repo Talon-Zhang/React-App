@@ -60,6 +60,10 @@ class Pokemon extends Component {
         </Button>
 
         <PokemonView pokemon={this.state.pokemon} />
+        {/*<PokemonView pokemon={this.state.pokemon} />*/}
+        {/*<PokemonView pokemon={this.state.pokemon} />*/}
+        {/*<PokemonView pokemon={this.state.pokemon} />*/}
+        {/*<PokemonView pokemon={this.state.pokemon} />*/}
       </div>
     )
   }
