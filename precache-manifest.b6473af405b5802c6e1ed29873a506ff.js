@@ -1,35 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "5bfb23a60fa7927a369f",
-    "url": "/React-App/static/css/main.b163bc95.chunk.css"
+    "revision": "59e591866538ab76baf4",
+    "url": "/React-App/static/css/main.ed8e88ba.chunk.css"
   },
   {
-    "revision": "5bfb23a60fa7927a369f",
-    "url": "/React-App/static/js/main.b9506e0a.chunk.js"
+    "revision": "59e591866538ab76baf4",
+    "url": "/React-App/static/js/main.33d3a53d.chunk.js"
   },
   {
     "revision": "0a1cf9ef188380b4f4c6",
     "url": "/React-App/static/js/runtime~main.a4b1c3b3.js"
   },
   {
-    "revision": "cac270c0e7bd0581888c",
+    "revision": "618a81e489163105c1e8",
     "url": "/React-App/static/css/2.e5657bba.chunk.css"
   },
   {
-    "revision": "cac270c0e7bd0581888c",
-    "url": "/React-App/static/js/2.5040efbe.chunk.js"
-  },
-  {
-    "revision": "cd6c777f1945164224dee082abaea03a",
-    "url": "/React-App/static/media/outline-icons.cd6c777f.woff2"
+    "revision": "618a81e489163105c1e8",
+    "url": "/React-App/static/js/2.b9e85851.chunk.js"
   },
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/React-App/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "9c74e172f87984c48ddf5c8108cabe67",
-    "url": "/React-App/static/media/flags.9c74e172.png"
+    "revision": "cd6c777f1945164224dee082abaea03a",
+    "url": "/React-App/static/media/outline-icons.cd6c777f.woff2"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
@@ -38,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "ad97afd3337e8cda302d10ff5a4026b8",
     "url": "/React-App/static/media/outline-icons.ad97afd3.ttf"
+  },
+  {
+    "revision": "9c74e172f87984c48ddf5c8108cabe67",
+    "url": "/React-App/static/media/flags.9c74e172.png"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/React-App/static/media/brand-icons.a1a749e8.svg"
   },
   {
-    "revision": "3821a415f6b3cb50934455a90feda0ff",
+    "revision": "d8edcbdfa50ac576e5f863262cea7494",
     "url": "/React-App/index.html"
   }
 ];
