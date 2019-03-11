@@ -13,11 +13,11 @@ class App extends Component {
     return (
       <Router>
             <Switch>
-              <Route basename={process.env.PUBLIC_URL} exact path="/" component={Home}/>
+              <Route exact path={process.env.PUBLIC_URL +"/"} component={Home}/>
               {/*<Route exact path="/example" component={Example}/>*/}
               {/*<Route exact path="/pokemon" component={Pokemon}/>*/}
-              <Route basename={process.env.PUBLIC_URL} exact path="/gallery" component={Gallery}/>
-              <Route basename={process.env.PUBLIC_URL} path="/detail/:index" component={Detail}/>
+              <Route exact path={process.env.PUBLIC_URL+"/gallery"} component={Gallery}/>
+              <Route path={process.env.PUBLIC_URL+"/detail/:index"} component={Detail}/>
             </Switch>
       </Router>
     );
