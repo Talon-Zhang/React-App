@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import {Button, Form, Input, Label} from 'semantic-ui-react'
 import PokemonView from '../PokemonView/PokemonView'
 
-import './Search.css'
+import './Search.scss'
 import axios from "axios";
 
 class Search extends Component {

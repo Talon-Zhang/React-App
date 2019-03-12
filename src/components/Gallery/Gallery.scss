@@ -1,13 +1,15 @@
+$ft: 50%;
+
 .GalleryCss {
   text-align: center;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, 100px);
+  left: $ft;
+  transform: translate(-$ft, 100px);
 }
 
 .FormCss {
   text-align: center;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0%);
+  left: $ft;
+  transform: translate(-$ft, 0%);
 }

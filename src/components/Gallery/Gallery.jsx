@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 import {Button, Form, Label} from 'semantic-ui-react'
 import PokemonView from '../PokemonView/PokemonView'
 
-import './Gallery.css'
+import './Gallery.scss'
 
 class Gallery extends Component {
     constructor(props) {
     super(props);
     var arr = [];
-     for (var i = 1; i < 54; i++) {
+     for (var i = 1; i < 102; i++) {
         arr.push(i);
      }
     this.state = {
@@ -25,9 +25,9 @@ class Gallery extends Component {
   }
 
   handleSubmit() {
-    const early = [1,4,7,10,13,16,19,21,23,25,27,29,32,35,37,39,41,43,46,48,50,52];
-    const medium = [2,5,8,11,14,17,30,32,44];
-    const mature = [3,6,9,12,15,18,20,22,24,26,28,31,34,36,38,40,42,45,47,49,51,53];
+    const early = [1,4,7,10,13,16,19,21,23,25,27,29,32,35,37,39,41,43,46,48,50,52,54,56,58,60,63,66,69,72,74,77,79,81,84,86,8,90,92,96,98,100];
+    const medium = [2,5,8,11,14,17,30,32,44,61,64,67,70,75,93];
+    const mature = [3,6,9,12,15,18,20,22,24,26,28,31,34,36,38,40,42,45,47,49,51,53,55,57,59,62,65,68,71,73,76,78,80,82,83,85,87,89,91,94,95,97,99,101];
       if (this.state.value === "Early"){
           this.setState({pokemon: early});
       }

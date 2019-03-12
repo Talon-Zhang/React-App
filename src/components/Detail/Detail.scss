@@ -1,3 +1,5 @@
+$ft: 50%;
+
 .DetailRight {
   position: absolute;
   right: 0px;
@@ -6,8 +8,8 @@
 .DetailContent {
   text-align: center;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0%);
+  left: $ft;
+  transform: translate(-$ft, 0%);
 }
 
 .pokeImg{

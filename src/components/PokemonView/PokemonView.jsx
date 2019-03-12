@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import './PokemonView.css'
+import './PokemonView.scss'
 import {Link} from "react-router-dom";
 
 class PokemonView extends Component {
