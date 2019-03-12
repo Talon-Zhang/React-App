@@ -78,7 +78,7 @@ class Detail extends Component {
               <p>height: {pokeData.height}</p>
               <p>generation: {gen}</p>
               <p>base_experience: {pokeData.base_experience}</p>
-              <p>area_encountered: {pokeData.location_area_encounters}</p>
+              <p>area_encountered: <a href={pokeData.location_area_encounters}>Click me to see where to find this pokemon.</a></p>
           </div>
       </div>
     )
