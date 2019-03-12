@@ -9,3 +9,8 @@
   left: 50%;
   transform: translate(-50%, 0%);
 }
+
+.pokeImg{
+  height: 250px;
+  width: 250px;
+}

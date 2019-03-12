@@ -16,7 +16,7 @@ class Home extends Component {
           </Button>
         </Link>
 
-         <Link to={process.env.PUBLIC_URL+"/pokemon"}>
+         <Link to={process.env.PUBLIC_URL+"/search"}>
           <Button>
             Search
           </Button>
