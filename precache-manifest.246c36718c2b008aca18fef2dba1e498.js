@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "82542a2a36398ca20f4b",
-    "url": "/React-App/static/css/main.5af0a7c7.chunk.css"
+    "revision": "742e3aaa2123dd332f66",
+    "url": "/React-App/static/css/main.aed27785.chunk.css"
   },
   {
-    "revision": "82542a2a36398ca20f4b",
-    "url": "/React-App/static/js/main.85859bb6.chunk.js"
+    "revision": "742e3aaa2123dd332f66",
+    "url": "/React-App/static/js/main.6e189bc6.chunk.js"
   },
   {
     "revision": "0a1cf9ef188380b4f4c6",
@@ -28,16 +28,16 @@ self.__precacheManifest = [
     "url": "/React-App/static/media/outline-icons.ef60a4f6.woff"
   },
   {
+    "revision": "9c74e172f87984c48ddf5c8108cabe67",
+    "url": "/React-App/static/media/flags.9c74e172.png"
+  },
+  {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
     "url": "/React-App/static/media/outline-icons.701ae6ab.eot"
   },
   {
     "revision": "ad97afd3337e8cda302d10ff5a4026b8",
     "url": "/React-App/static/media/outline-icons.ad97afd3.ttf"
-  },
-  {
-    "revision": "9c74e172f87984c48ddf5c8108cabe67",
-    "url": "/React-App/static/media/flags.9c74e172.png"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/React-App/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "13db00b7a34fee4d819ab7f9838cc428",
-    "url": "/React-App/static/media/brand-icons.13db00b7.eot"
-  },
-  {
     "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
     "url": "/React-App/static/media/icons.b87b9ba5.ttf"
+  },
+  {
+    "revision": "13db00b7a34fee4d819ab7f9838cc428",
+    "url": "/React-App/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/React-App/static/media/brand-icons.a1a749e8.svg"
   },
   {
-    "revision": "f2353fbacb1a77eacd6f384713fef25e",
+    "revision": "4da4b4d886b9b2dd6028b59eb6cb8d53",
     "url": "/React-App/index.html"
   }
 ];
